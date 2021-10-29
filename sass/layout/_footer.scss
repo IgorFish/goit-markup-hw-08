@@ -1,0 +1,40 @@
+/* подвал */
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--primari-hero-color);
+}
+.foot {
+  display: flex;
+  align-items: baseline;
+}
+/* адрес */
+.footer-address {
+  flex-grow: 1;
+  margin-right: 70px;
+}
+
+.address {
+  font-style: normal;
+  margin-top: 20px;
+}
+
+.address__item:nth-child(-n + 2) {
+  margin-bottom: 9px;
+}
+.address__link {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.address__color {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}

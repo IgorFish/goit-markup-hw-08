@@ -1,0 +1,41 @@
+/* постоянные клиенты */
+.clients {
+  // padding-top: 0px;
+}
+// .heading-clients {
+//   color: var(--title-text-color);
+//   font-weight: 700;
+//   font-size: 36px;
+//   line-height: 1.17;
+//   text-align: center;
+//   letter-spacing: 0.03em;
+//   margin-bottom: 50px;
+// }
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+.clients-list__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-list__link {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 92px;
+  width: 170px;
+  border-color: var(--accent-color);
+  fill: var(--icon-background);
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+    border-color: var(--accent-color);
+  }
+}
