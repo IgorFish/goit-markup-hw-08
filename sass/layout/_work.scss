@@ -2,6 +2,10 @@
 
 .section__work {
   padding-top: 0px;
+
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
 }
 .heading {
   color: var(--title-text-color);
