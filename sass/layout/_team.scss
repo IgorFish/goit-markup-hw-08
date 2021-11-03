@@ -1,20 +1,21 @@
 .section__team {
   background-color: var(--section-team-button);
-  width: 100%;
+  // width: 100%;
 }
 
 .team {
-  @media screen and (max-width: 767px) {
-    display: block;
-  }
-  // display: block;
+  display: block;
+  // @media screen and (max-width: 767px) {
+  //   display: block;
+  // }
+  // // display: block;
 
-  // display: flex;
+  // // display: flex;
 
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
-    // margin: -15 px;
+    margin: -15 px;
   }
 }
 
@@ -23,22 +24,22 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 
-  @media screen and (min-width: 768px) {
-    width: calc((100% - 60 px) / 2);
-    margin: 15 px;
+  // @media screen and (min-width: 768px) {
+  //   width: calc((100% - 60 px) / 2);
+  //   margin: 15 px;
+  // }
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 30px;
+    &:last-of-type {
+      margin-bottom: 0px;
+    }
   }
 
-  // @media screen and (max-width: 767px) {
-  //   margin-bottom: 30px;
-  //   &:last-of-type {
-  //     margin-bottom: 0px;
-  //   }
-  // }
-
-  // @media screen and (min-width: 768px) and (max-width: 1199px) {
-  //   width: calc((100% - 60 px) / 2);
-  //   margin: 5px;
-  // }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: calc((100% - 60 px) / 2);
+    margin: 15px;
+  }
 
   // @media screen and (min-width: 1200px) {
   //   margin: 15 px;
@@ -59,11 +60,11 @@
 //   margin: 15 px;
 // }
 
-// .team__box {
-//   padding-top: 30px;
-//   padding-bottom: 30px;
-//   background-color: var(--primari-bg-color);
-// }
+.team__box {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: var(--primari-bg-color);
+}
 
 .team__title {
   color: var(--title-text-color);
