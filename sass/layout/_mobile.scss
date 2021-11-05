@@ -1,0 +1,33 @@
+.button-menu {
+  background-color: white;
+  // color: var(--title-text-color);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+// background-color: white;
+//   fill: $title-text-color;
+//   &:hover,
+//   &:focus {
+//     fill: $accent-color;
+//   }
+//   @media (min-width: 768px) {
+//     display: none;
+//   }
+// }
+
+// .mobile-menu {
+//   position: relative;
+//   width: 528px;
+//   min-height: 581px;
+//   background-color: var(--primari-bg-color);
+//   border-radius: 4px;
+
+//   padding: 40px;
+// }

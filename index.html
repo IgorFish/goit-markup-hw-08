@@ -19,12 +19,28 @@
 
   <body>
     <!--верхняя линия-->
-    <!-- <header class="header">
+    <header class="header">
       <div class="container nav">
-        <a href="./index.html" class="logo"
-          >Web<span class="logo__color">Studio</span></a
-        >
         <nav class="navigation">
+          <a href="./index.html" class="logo"
+            >Web<span class="logo__color">Studio</span></a
+          >
+          <!-- кнопка меню -->
+          <button
+            type="button"
+            class="button-menu js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg
+              width="40"
+              height="40"
+              aria-label="Переключатель млбильного меню"
+            >
+              <use href="./images/symbol-defs.svg#icon-menu"></use>
+            </svg>
+          </button>
+
           <ul class="navigation__list">
             <li class="navigation__item">
               <a
@@ -41,7 +57,7 @@
             </li>
           </ul>
         </nav>
-        <ul class="contakts">
+        <!-- <ul class="contakts">
           <li class="contakts__item__mail">
             <a class="contakts__link" href="mailto:info@devstudio.com">
               <svg class="contakts__icon" width="16" height="12">
@@ -58,12 +74,12 @@
               +38 096 111 11 11</a
             >
           </li>
-        </ul>
+        </ul> -->
       </div>
-    </header> -->
+    </header>
     <main>
       <!--Герой-->
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="container">
           <h1 class="hero__title">
             ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br />
@@ -73,9 +89,9 @@
             Заказать услугу
           </button>
         </div>
-      </section>
+      </section> -->
       <!--особенности-->
-      <section class="section">
+      <!-- <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Особенности</h2>
           <ul class="feutures">
@@ -129,9 +145,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!--чем занимаемся-->
-      <section class="section section__work">
+      <!-- <section class="section section__work">
         <div class="container">
           <h2 class="heading">Чем мы занимаемся</h2>
           <ul class="work-list">
@@ -166,7 +182,6 @@
                   alt="веб дизайнер подбирает цвет на графическом планшете"
                   width="370"
                 />
-
                 <div class="work-list__label">
                   <p class="work-list__text">дизайнерские решения</p>
                 </div>
@@ -174,9 +189,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!--наша команда-->
-      <section class="section section__team">
+      <!-- <section class="section section__team">
         <div class="container">
           <h2 class="section__title">Наша команда</h2>
           <ul class="team">
@@ -316,8 +331,6 @@
                 />
                 <img src="./images/img_mob3.jpg" alt="employee photo" />
               </picture>
-
-
               <div class="team__box">
                 <h3 class="team__title">Николай Тарасов</h3>
                 <p class="team__text">Marketing</p>
@@ -329,7 +342,6 @@
                       </svg>
                     </a>
                   </li>
-
                   <li class="sochial__icon__item">
                     <a class="sochial__icon__link" href="">
                       <svg width="20" height="20">
@@ -337,7 +349,6 @@
                       </svg>
                     </a>
                   </li>
-
                   <li class="sochial__icon__item">
                     <a class="sochial__icon__link" href="">
                       <svg width="20" height="20">
@@ -345,7 +356,6 @@
                       </svg>
                     </a>
                   </li>
-
                   <li class="sochial__icon_item">
                     <a class="sochial__icon__link" href="">
                       <svg width="20" height="20">
@@ -376,7 +386,9 @@
                     ./images/desctop/img_d4@2x.jpg 2x
                   "
                 />
-              <img src="./images/img_mob4.jpg" alt="employee photo" width="" />
+                <img src="./images/img_mob4.jpg" alt="employee photo" />
+              </picture>
+
               <div class="team__box">
                 <h3 class="team__title">Михаил Ермаков</h3>
                 <p class="team__text">UI Designer</p>
@@ -388,7 +400,6 @@
                       </svg>
                     </a>
                   </li>
-
                   <li class="sochial__icon__item">
                     <a class="sochial__icon__link" href="">
                       <svg width="20" height="20">
@@ -396,7 +407,6 @@
                       </svg>
                     </a>
                   </li>
-
                   <li class="sochial__icon__item">
                     <a class="sochial__icon__link" href="">
                       <svg width="20" height="20">
@@ -404,7 +414,6 @@
                       </svg>
                     </a>
                   </li>
-
                   <li class="sochial__icon__item">
                     <a class="sochial__icon__link" href="">
                       <svg width="20" height="20">
@@ -417,9 +426,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- постоянные клиенты -->
-      <section class="section">
+      <!-- <section class="section">
         <div class="container">
           <h2 class="section__title">Постоянные клиенты</h2>
           <ul class="clients-list">
@@ -467,7 +476,7 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
     <!--подвал-->
     <!-- <footer class="footer">
@@ -627,7 +636,68 @@
       </div>
     </div> -->
 
+    <!--  мобильное меню -->
+
+    <!-- <div class="mob-menu js-menu-container" id="mobile-menu">
+                <button type="button" class="menu-btn menu-btn--close js-close-menu">
+                  <svg width="40" height="40" aria-label="Переключатель млбильного меню">
+                    <use href="./images/symbol-defs.svg#icon-close"></use>
+                  </svg>
+                </button>
+              <div class="menu-open" >
+                    <ul class="navigation__list">
+                      <li class="navigation__item">
+                        <a
+                          class="navigation__link navigation__link--current"
+                          href="./index.html"
+                          >Студия</a
+                        >
+                      </li>
+                      <li class="navigation__item">
+                        <a class="navigation__link" href="./portfolio.html">Портфолио</a>
+                      </li>
+                      <li class="navigation__item">
+                        <a class="navigation__link" href="">Контакты</a>
+                      </li>
+                    </ul>
+                  </nav>
+                  <ul class="contakts">
+                    
+                    <li class="contakts__item__tel">
+                      <a class="contakts__link" href="tel:+380961111111">
+                        <svg class="contakts__icon" width="10" height="16">
+                          <use href="./images/symbol-defs.svg#smartphone"></use>
+                        </svg>
+                        +38 096 111 11 11</a
+                      >
+                    </li>
+                    <li class="contakts__item__mail">
+                      <a class="contakts__link" href="mailto:info@devstudio.com">
+                        <svg class="contakts__icon" width="16" height="12">
+                          <use href="./images/symbol-defs.svg#envelope-hover"></use>
+                        </svg>
+                        info@devstudio.com</a
+                      >
+                    </li>
+                  </ul>
+                  <ul class="social-nav">
+                    <li class="social-nav__item">
+                      <a class="social-nav__link" href="">Instagram</a>
+                    </li>
+                    <li class="social-nav__item">
+                      <a class="social-nav__link" href="">Twitter</a>
+                    </li>
+                    <li class="social-nav__item">
+                      <a class="social-nav__link" href="">Facebook</a>
+                    </li>
+                    <li class="social-nav__item">
+                      <a class="social-nav__link" href="">Linkedin</a>
+                    </li>
+                  </ul>
+              </div> -->
+
     <script src="./js/modal.js"></script>
+    <script src="./js/mobil.js"></script>
 
     <!-- скрипт репета -->
     <script>

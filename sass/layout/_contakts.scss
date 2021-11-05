@@ -1,0 +1,31 @@
+.contakts {
+  margin-left: auto;
+  display: flex;
+}
+
+.contakts__item__mail {
+  margin-right: 50px;
+}
+
+.contakts__link {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  padding: 32px 0 32px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.contakts__icon {
+  fill: currentColor;
+  content: var(--button-text-color);
+  margin-top: 0px;
+  margin-right: 10px;
+}
