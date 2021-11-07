@@ -8,19 +8,23 @@
 @import "./components/container";
 @import "./layout/header";
 @import "./layout/logo";
+@import './layout/mobile';
+@import "./layout/hero";
+
+
 // @import ".layout/navigation_list";
 // @import ".layout/contakts";
-// @import "./layout/hero";
-// @import "./components/btn_hero";
-// @import "./layout/feutures";
-// @import "./layout/work";
-// @import "./layout/team";
-// @import "./layout/sochial_icon";
-// @import "./layout/clients";
+
+@import "./components/btn_hero";
+@import "./layout/feutures";
+@import "./layout/work";
+@import "./layout/team";
+@import "./layout/sochial_icon";
+@import "./layout/clients";
 // @import "./layout/footer";
 // @import "./layout/social_footer";
 // @import "./layout/mailing";
 // @import "./layout/filter";
 // @import "./layout/projeckt";
 // @import "./layout/modal";
-@import ".layaut/mobile";
+
