@@ -5,13 +5,30 @@
   background-color: var(--primari-hero-color);
 }
 .foot {
+  @media screen and (max-width: 767px) {
+  display: block;}
+  @media screen and (min-width: 1200px) {
   display: flex;
   align-items: baseline;
+  text-align: left;
+  }
 }
+.footer-box {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+}
+
 /* адрес */
 .footer-address {
-  flex-grow: 1;
-  margin-right: 70px;
+  @media screen and(min-width:768px) {
+  }
+
+  // flex-grow: 1;
+  // margin-right: 70px;
 }
 
 .address {

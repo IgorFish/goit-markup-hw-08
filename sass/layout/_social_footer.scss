@@ -1,10 +1,19 @@
 /* соцсети подвал */
 
 .social {
-  margin-right: 93px;
+  @media screen and (max-width: 767px) {
+    margin-top: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 70px;
+    margin-right: 93px;
+  }
+  // margin-right: 93px;
 }
 
 .footer-soc {
+  display: block;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -16,6 +25,8 @@
 
 .social__list {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .social__item:not(:last-child) {
   margin-right: 10px;
@@ -37,4 +48,5 @@
     fill: var(--primari-bg-color);
     background-color: var(--accent-color);
   }
+  
 }
